@@ -1,7 +1,7 @@
 clc;
 
 t = 0.1 : 0.01 : 10;
-x = 10*sin(2*pi*0.5*t)+1*sin(2*pi*20*t);
+x = sin(2*pi*0.5*t)+1*sin(2*pi*20*2t);
 
 x_fft = abs(fft(x));
 
